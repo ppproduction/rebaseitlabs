@@ -1,0 +1,67 @@
+.container{
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(187, 187, 187);
+  display: flex;
+  flex-direction: row;
+}
+
+.dateSection {
+  padding: 5vh 2vh;
+  height: 90vh;
+  width: 25%;
+  border-right: black solid 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+}
+
+.date {
+  height: 45vh;
+}
+
+.dataSection {
+  padding: 5vh 2vh;
+  height: 90vh;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;  
+}
+
+.data {
+  height : 45vh;
+  width: 100%;
+  background-color: blueviolet;
+  overflow: auto;
+}
+
+.productTable {
+  background-color: #32373a;
+  color: white;
+  height: 45vh;
+  width: 100%;
+  overflow: auto;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.products:hover {
+  background-color: thistle;
+  color: #32373a;
+}
+
+.button {
+  margin: 8px;
+  padding: 8px;
+}
